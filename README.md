@@ -5,7 +5,7 @@ e.g. Enrich HR information using employee number as a lookup key or enrich inter
 
 1) Install translate plugin for Logstash -  https://www.elastic.co/guide/en/logstash/current/plugins-filters-translate.html
 
-2) Create JSON (or hash or YAML) file
+2) Create JSON (or hash or YAML) lookup file -- [Example Employee JSON File](https://github.com/michaelkeevildown/logstash-2.3.1-lookup/blob/master/lookup-files/ip.json)
 
 3) Create logstash config to include location of lookup file
 
@@ -45,6 +45,7 @@ output {
 	stdout {codec => rubydebug}
 }
 ```
+**n.b.** you must set the dictionary_path, to be the absolute path to your JSON (or hash or YAML) lookup file.
 
 4) Run logstash
 
