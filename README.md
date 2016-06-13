@@ -106,3 +106,7 @@ echo '{"employee_number":"123456"}' | ./bin/logstash -f ./config/employee.conf
 ```
 echo '{"employee_number":"654321"}' | ./bin/logstash -f ./config/employee.conf
 ```
+
+### Versions:
+
+This example uses `Logstash 2.3.1` so please keep that in mind when implementing into your own stack.
