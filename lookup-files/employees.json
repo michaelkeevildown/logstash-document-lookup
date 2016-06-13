@@ -1,0 +1,16 @@
+{
+  "123456": {
+    "employee_number": 123456,
+    "first_name": "Michael",
+    "last_name": "Down",
+    "age": 28,
+    "first_day": "2015-01-08"
+  },
+  "654321": {
+    "employee_number": 654321,
+    "first_name": "Liam",
+    "last_name": "Jonas",
+    "age": 30,
+    "first_day": "2013-07-23"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "1.1.1.1": {
+    "ip": "1.1.1.1",
+    "country_code2": "GB",
+    "country_code3": "GBR",
+    "country_name": "United Kingdom",
+    "continent_code": "EU",
+    "region_name": "H9",
+    "city_name": "London",
+    "postal_code": "EC4N",
+    "latitude": 51.514399999999995,
+    "longitude": -0.09409999999999741,
+    "timezone": "Europe/London",
+    "real_region_name": "London, City of",
+    "location": [
+      -0.09409999999999741,
+      51.514399999999995
+    ]
+  }
+}
